@@ -1,18 +1,18 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Eecii\WeeksenOpenapi\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class WeeksenOpenapiCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'weeksen:openapi';
 
     public $description = 'My command';
 
     public function handle(): int
     {
-        $this->comment('All done');
+
 
         return self::SUCCESS;
     }
